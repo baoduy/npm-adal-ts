@@ -14,6 +14,7 @@
     "webpack": "webpack",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "ci-publish": "ci-publish --access public",
+    "publish": "npm publish --access public",
     "report-coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "update": "ncu -u"
   },
